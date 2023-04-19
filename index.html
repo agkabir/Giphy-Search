@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Giphy Search</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Ghipy Searcher</h1>
+      <form id="spiritForm" class="form">
+      <fieldset>
+        <legend>
+          Select how you would like to generate spirit animal name:
+        </legend>
+      <label for="searchGiphy">Enter Giphy Search Text :</label>
+        <input id="searchGiphy" type="text" placeholder="search giphy" />
+      
+     <label for="numberOfGiphy">How Many Giphys? : </label>
+        <input
+          id="numberOfGiphy"
+          type="number"
+          placeholder="Number of giphys"
+          min="0"
+        />
+       <input id="btnSearch" type="button" value="Search for Giphy" />
+      
+      </fieldset>
+      </form>
+      <div id="displayImages" class="displayImages"></div>
+    </div>
+    <script src="giphy.js"></script>
+  </body>
+</html>
