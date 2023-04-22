@@ -3,4 +3,4 @@ Here is how it works: The user can write some text indicating the gif he is look
 
 Moreover, the user can specify how many gif results the user wants.
 
-![giphy search](assets/giphy-search.gif)
+![giphy search](giphy-search.gif)
